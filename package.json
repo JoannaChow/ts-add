@@ -1,16 +1,18 @@
 {
   "name": "ts-add",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "dist/index.js",
   "repository": "https://github.com/JoannaChow/ts-add.git",
   "author": "JoannaChow <j233zhou@uwaterloo.ca>",
   "license": "MIT",
   "devDependencies": {
     "husky": "^6.0.0",
     "prettier": "2.3.0",
-    "pretty-quick": "^3.1.0"
+    "pretty-quick": "^3.1.0",
+    "typescript": "^4.2.4"
   },
   "scripts": {
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "build": "rm -rf dist && yarn tsc"
   }
 }
