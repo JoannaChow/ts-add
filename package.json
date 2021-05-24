@@ -1,0 +1,16 @@
+{
+  "name": "ts-add",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/JoannaChow/ts-add.git",
+  "author": "JoannaChow <j233zhou@uwaterloo.ca>",
+  "license": "MIT",
+  "devDependencies": {
+    "husky": "^6.0.0",
+    "prettier": "2.3.0",
+    "pretty-quick": "^3.1.0"
+  },
+  "scripts": {
+    "prepare": "husky install"
+  }
+}
